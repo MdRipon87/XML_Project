@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Regression">
+
+	<test name="LoginTest">
+
+		<parameter name="username" value="demo@techfios.com" />
+		<parameter name="password" value="abc123" />
+
+		<!-- <parameter name="FullName" value="Ripon Md" /> <parameter name="CompanyName" 
+			value="Techfios" /> <parameter name="Email" value="test2gmail.com" /> <parameter 
+			name="Phone" value="646500" /> <parameter name="Address" value="150th ave" 
+			/> <parameter name="City" value="Jamaica" /> <parameter name="State" value="New 
+			York" /> <parameter name="Zip" value="11435" /> -->
+
+		<parameter name="accountTittle" value="Checking" />
+		<parameter name="description" value="WhatEver" />
+		<parameter name="initialBalance" value="1500" />
+		<parameter name="accountNumber" value="4560782" />
+		<parameter name="contactParson" value="Ripon Md" />
+		<parameter name="phone" value="646500" />
+
+		<classes>
+
+			<!-- <class name="test.LoginTest" /> -->
+
+			<!-- class name="test.AddCustomerTest" /> -->
+
+			<class name="test.BankAndCashTest" />
+
+		</classes>
+
+	</test>
+
+</suite>
